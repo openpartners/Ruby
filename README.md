@@ -8,4 +8,5 @@
 3. Zmienne
 4. Operatory part 1
 5. Operatory part 2
-
+6. wyrażenie warunkowe part 1
+7. wyrażenie warunkowe part 2
