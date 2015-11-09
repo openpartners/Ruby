@@ -6,4 +6,6 @@
 1. Pierwszy program.
 2. Łańcuchy znaków i liczby
 3. Zmienne
+4. Operatory part 1
+5. Operatory part 2
 
