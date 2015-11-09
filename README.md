@@ -11,4 +11,6 @@
 6. wyrażenie warunkowe part 1
 7. wyrażenie warunkowe part 2
 8. Pętla while + ARGV + to_i
+9. Metody part 1
+10. Metody part 2
 
