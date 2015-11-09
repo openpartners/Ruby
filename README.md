@@ -10,3 +10,5 @@
 5. Operatory part 2
 6. wyrażenie warunkowe part 1
 7. wyrażenie warunkowe part 2
+8. Pętla while + ARGV + to_i
+
