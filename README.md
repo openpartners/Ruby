@@ -15,5 +15,5 @@
 10. Metody part 2
 11. Metody part 3
 12. Objekty i Klasy / storeapp
-
+13. Właściwości objektów, initialize, getters and setters
 
