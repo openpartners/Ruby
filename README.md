@@ -14,4 +14,6 @@
 9. Metody part 1
 10. Metody part 2
 11. Metody part 3
+12. Objekty i Klasy / storeapp
+
 
