@@ -3,31 +3,31 @@ class Item
 	def initialize 
 	# specjalny metod w każdej klasie wykonuje się zawsze 
 	# przy tworzeniu obiektu egzemplara klasy -  Klasa.new
-		@price = 5
+		@price = 1
 	end
 
-	def price # getter
-		@price
-	end
-# gdyby nie było metody price
-# def price - metoda zwracająca zmienną @price dostęp przez Item.new.price
-# 	@price - własciwość - zmienna objektu klasy Item
-# end
-# wynik: 
-# undefined method `price' for #<Item:0x007fbfa832ec30> (NoMethodError)
+	# metody klasy
+	
+	# getter
+	attr_reader :price, :weight # co oznacza :jakaś_nazwa ---> symbol
+	
+	# setter
+	attr_writer :price, :weight
+	# bez weight 
+	# wynik: undefined method `weight=' for #<Item:0x007f671924a4c8 @price=10> (NoMethodError)
 
-	def price=(price_value) # setter
-		@price = price_value # tu można nadać wartość zmiennej a póżniej ją zwrócić za pomocą getter'a
-	end
+	# getter i setter
+	# attr_accessor :price, :weight
+
+
 
 end
 
 item1 = Item.new
 p item1.price
 
-item1.price = 10 # można też tak: item1.price=(10)
+item1.price = 5
 p item1.price
 
-item1.price=(20) # lub item1.price = 20
-p item1.price
-
+item1.weight = 10
+p item1.weight

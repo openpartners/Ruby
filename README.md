@@ -16,4 +16,5 @@
 11. Metody part 3
 12. Objekty i Klasy / storeapp
 13. Właściwości objektów, initialize, getters and setters
+14. attribute readers, writers and accessors
 
