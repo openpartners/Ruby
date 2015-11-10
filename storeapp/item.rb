@@ -1,33 +1,32 @@
 class Item
 	
-	def initialize 
-	# specjalny metod w każdej klasie wykonuje się zawsze 
-	# przy tworzeniu obiektu egzemplara klasy -  Klasa.new
-		@price = 1
+	def initialize(options)
+		@price = options[:price]
+		@weight = options[:weight]
 	end
 
-	# metody klasy
-	
-	# getter
-	attr_reader :price, :weight # co oznacza :jakaś_nazwa ---> symbol
-	
-	# setter
+	attr_reader :price, :weight
 	attr_writer :price, :weight
-	# bez weight 
-	# wynik: undefined method `weight=' for #<Item:0x007f671924a4c8 @price=10> (NoMethodError)
-
-	# getter i setter
-	# attr_accessor :price, :weight
-
-
 
 end
 
-item1 = Item.new
-p item1.price
+# gdyby był przekazany pusty hash:
+# item1 = Item.new({})
+# wynik 
+# nil
+# nil
 
-item1.price = 5
-p item1.price
+# gdyby był przekazany dodatkowy klucz:
+# item1 = Item.new({ :weight => 10, :price => 20, :price => 25})
+# wynik 
+# warning: duplicated key at line 18 ignored: :price
+# 25
+# 10
 
-item1.weight = 10
+
+item1 = Item.new({ :weight => 10, :price => 20})
+p item1.price
 p item1.weight
+# wynik:
+# 20
+# 10
