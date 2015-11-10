@@ -10,23 +10,7 @@ class Item
 
 end
 
-# gdyby był przekazany pusty hash:
-# item1 = Item.new({})
-# wynik 
-# nil
-# nil
+puts Item.new({ :price => 30}).price
 
-# gdyby był przekazany dodatkowy klucz:
-# item1 = Item.new({ :weight => 10, :price => 20, :price => 25})
-# wynik 
-# warning: duplicated key at line 18 ignored: :price
-# 25
-# 10
-
-
-item1 = Item.new({ :weight => 10, :price => 20})
-p item1.price
-p item1.weight
 # wynik:
-# 20
-# 10
+# 30

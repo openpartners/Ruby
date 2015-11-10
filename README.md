@@ -15,8 +15,9 @@
 10. Metody part 2
 11. Metody part 3
 12. Objekty i Klasy / storeapp
-13. Właściwości objektów, initialize, getters and setters
-14. Attribute readers, writers and accessors
-15. Symbole, hashes i initializing object properties, irb
+13. Właściwości objektów, initialize, getters and setters / storeapp
+14. Attribute readers, writers and accessors / storeapp
+15. Symbole, hashes i initializing object properties, irb / storeapp
+16. Wszystko jest objektem
 
 
