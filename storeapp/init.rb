@@ -2,10 +2,11 @@ require_relative "cart"
 require_relative "item"
 
 cart = Cart.new
-
 cart.add_item(Item.new)
 cart.add_item(Item.new)
 p cart.items
+
+cart.validate
 
 # wynik
 # [#<Item:0x007f8d918586a0 @price=nil, @weight=nil>, #<Item:0x007f8d91858650 @price=nil, @weight=nil>]
