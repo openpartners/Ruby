@@ -20,7 +20,8 @@
 15. Symbole, hashes i initializing object properties, irb / storeapp
 16. Wszystko jest objektem
 17. Tablice, cart, init
-18. Bloki, iterator each
+18. Bloki, iterator each. part 1
+19. Bloki. ananimn metod, yield. part 2 
 
 
 
