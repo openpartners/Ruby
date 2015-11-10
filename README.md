@@ -19,5 +19,7 @@
 14. Attribute readers, writers and accessors / storeapp
 15. Symbole, hashes i initializing object properties, irb / storeapp
 16. Wszystko jest objektem
+17. Tablice, cart, init
+
 
 
