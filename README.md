@@ -26,3 +26,4 @@
 21. Dziedziczenie i polimorfizm
 22. Metody i zmienne klasowe
 23. Public i private metody w klasach
+24. Moduły (include and mixins)
