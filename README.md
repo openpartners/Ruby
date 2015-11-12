@@ -27,3 +27,4 @@
 22. Metody i zmienne klasowe
 23. Public i private metody w klasach
 24. Moduły (include and mixins)
+25. Nested modules and classes

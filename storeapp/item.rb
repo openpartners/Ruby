@@ -25,8 +25,8 @@ class Item
 		yield (name)
 	end
 
-	def price
-		(@real_price - @real_price*self.class.discount) + tax # cena ze zniżką + podatek
+	def price # cena ze zniżką + podatek
+		(@real_price - @real_price*self.class.discount) + tax if @real_price # if @real_price  nawet jeśli @real_price będzie nil'em
 		# tax - prywatną metodę można wywołać tylko w środku objektu w którym ona zdefiniowana
 	end
 
