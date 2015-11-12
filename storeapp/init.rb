@@ -13,3 +13,9 @@ cart.add_item item2
 
 
 puts item1.price
+puts item1.real_price
+# wynik:
+# 12.5 - cena ze zniżką + podatek
+# 10 - realna cena produktu
+
+

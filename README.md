@@ -25,3 +25,4 @@
 20. Bloki. File, each_key part 3
 21. Dziedziczenie i polimorfizm
 22. Metody i zmienne klasowe
+23. Public i private metody w klasach
