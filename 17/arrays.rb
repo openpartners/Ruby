@@ -25,5 +25,14 @@ puts names[0]
 # John
 # Array
 
+my_array = [1, "two", 3, "four"]
+# [1, "two", 3, "four"]
 
+my_array + [5, 6, 7]
+# [1, "two", 3, "four", 5, 6, 7]
 
+my_array << 8
+# [1, "two", 3, "four", 8]
+
+my_array
+# [1, "two", 3, "four", 8]
