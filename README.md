@@ -33,4 +33,5 @@
 28. reading and writing files
 29. reopening classes and automatic type conversions
 30. Exceptions
+31. Własne Wyjątki - Raising Exceptions - VirtualItem to file 
 
