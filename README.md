@@ -32,3 +32,5 @@
 27. Argumenty z terminalu - ARGV
 28. reading and writing files
 29. reopening classes and automatic type conversions
+30. Exceptions
+
