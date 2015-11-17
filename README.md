@@ -31,3 +31,4 @@
 26. Module inclusion callback - jak korzystać z callback'ów
 27. Argumenty z terminalu - ARGV
 28. reading and writing files
+29. reopening classes and automatic type conversions
