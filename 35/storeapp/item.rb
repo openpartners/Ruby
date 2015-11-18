@@ -12,9 +12,13 @@ class Item
 		# zmienne @price i @name nie będą dostępne w self.discount tylko @@discount będzie tam dostępna
 	end
 	
-	def initialize(options={})
+	# def initialize(options={})
+	# 	@real_price = options[:price]
+	# 	@name = options[:name]		
+	# end
+	def initialize(name, options={})
 		@real_price = options[:price]
-		@name = options[:name]		
+		@name = name
 	end
 
 	attr_reader :real_price, :name

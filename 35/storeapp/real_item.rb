@@ -2,14 +2,14 @@ class RealItem < Item
 
 	attr_reader :weight
 
-	def initialize(options)
+	def initialize(name, options)
 		@weight = options[:weight]
-		super #by domyślne również były wywołane initialize z klassa Item z tymi samymi argumentami options co w RealItem
+		super
 	end
 
 	def info
 		yield(weight)
-		super #by domyślne również były wywołane info z klassa Item z tymi samymi argumentami options co w RealItem
+		super
 	end
 
 end
