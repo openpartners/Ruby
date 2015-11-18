@@ -36,3 +36,4 @@
 31. Własne Wyjątki - Raising Exceptions - VirtualItem to file 
 32. Stałe - Constants
 33. Reflection и method_missing - specjalny metod collback
+34. Reflection - #kind_of?, #respond_to?, #send
