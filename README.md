@@ -34,4 +34,5 @@
 29. reopening classes and automatic type conversions
 30. Exceptions
 31. Własne Wyjątki - Raising Exceptions - VirtualItem to file 
+32. Stałe - Constants
 

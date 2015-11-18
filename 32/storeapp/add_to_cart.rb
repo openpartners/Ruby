@@ -8,7 +8,7 @@ cart.read_from_file
 begin
 	cart.save_to_file
 rescue Cart::ItemNotSupported
-	puts "one of your items is VirtualItems and not support"
+	puts "One of the items you're trying to save is not supported by the Cart. Unsupported classes are: #{Cart::UNSUPPORTED_ITEMS}"
 end
 
 # $ ruby add_to_cart.rb andrey car dishwasher kettle

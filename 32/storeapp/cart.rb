@@ -6,6 +6,9 @@ class Cart
 
 	class ItemNotSupported < StandardError; end
 
+	# konstantą może być obiekt dowolnej klassy 
+	UNSUPPORTED_ITEMS = [AntiqueItem, VirtualItem]
+
 	def initialize(owner)
 		@items = Array.new
 		@owner = owner
@@ -14,7 +17,7 @@ class Cart
 	def save_to_file
 		File.open("#{@owner}_cart.txt", "w") do |f| 
 			@items.each do |i|
-				raise ItemNotSupported if i.class == VirtualItem
+				raise ItemNotSupported if UNSUPPORTED_ITEMS.include?(i.class)
 				f.puts i
 			end 
 		end
