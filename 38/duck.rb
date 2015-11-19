@@ -1,30 +1,30 @@
 class Duck
 
+@@hello ="Hello"
+
 	def initialize(greeting)
 		@greeting = greeting
 	end
 
 	def quack 
-		puts @greeting
+		puts "#{@@hello} #{@greeting}"
 	end
 
 	class << self
-		attr_accessor :greeting
+		attr_accessor :icv
 		def icv
-			puts @greeting
-			puts "Class quack"
+			puts "#{@@hello} #{@icv}"
 		end
 	end
 
 end
 
-duck1 = Duck.new("quack quack")
+duck1 = Duck.new("quack")
 duck1.quack
 
-Duck.greeting = "icv"
+Duck.icv = "icv"
 Duck.icv
 
 # Wynik:
-# quack quack
-# icv
-# Class quack
+# Hello quack
+# Hello icv
