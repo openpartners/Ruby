@@ -39,3 +39,4 @@
 34. Reflection - #kind_of?, #respond_to?, #send
 35. Ładny kod - syntax sugar
 36. Singletons and class methods 
+37. Domain Specific Languages (DSL) - konfig

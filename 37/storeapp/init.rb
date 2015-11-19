@@ -1,8 +1,19 @@
 require_relative "store_application"
 
-puts StoreApplication.new == StoreApplication.new
-p StoreApplication.new
-# StoreApplication.new
+StoreApplication.config do |app|
+	app.name = "My Store"
+	app.environment = :production
+
+	app.admin do |admin|
+		admin.email = "andrzejsew@gmail.com"
+		admin.login = "admin"
+		admin.send_info_emails_on :mondays
+	end
+end
+p StoreApplication.environment # :production
+p StoreApplication.name # "My Store"
+p StoreApplication::Admin.login # "admin"
+p StoreApplication::Admin.email # "andrzejsew@gmail.com"
 
 @items = []
 # od ruby 1.9
@@ -18,15 +29,13 @@ cart.add_item RealItem.new("car", price: 2000, weight: 200)
 method = "all_cars"
 puts cart.send(method)
 
-# Singleton - specjalna klassa u której można stworzyć tylko jeden egzemplarz
 # Wynik:
-# loading files .... # by się nie powtarzały loading files .... loading files ....
-# Class # by się nie powtarzały Class .... Class ....
-# true
-# StoreApplication
+# loading files ....
+# Class
+# :production
+# "My Store"
+# "admin"
+# "andrzejsew@gmail.com"
 # car:2302.0:100
 # car:2302.0:150
 # car:2302.0:200
-
-
-
