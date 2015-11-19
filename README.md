@@ -40,3 +40,4 @@
 35. Ładny kod - syntax sugar
 36. Singletons and class methods 
 37. Domain Specific Languages (DSL) - konfig
+38. Class instance variables - zmienne klasowe 1part
