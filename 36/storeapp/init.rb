@@ -1,11 +1,8 @@
-require_relative "string"
-require_relative "item_container"
-require_relative "item"
-require_relative "real_item"
-require_relative "virtual_item"
-require_relative "antique_item"
-require_relative "cart"
-require_relative "order"
+require_relative "store_application"
+
+puts StoreApplication.new == StoreApplication.new
+p StoreApplication.new
+# StoreApplication.new
 
 @items = []
 # od ruby 1.9
@@ -20,7 +17,16 @@ cart.add_item RealItem.new("car", price: 2000, weight: 200)
 
 method = "all_cars"
 puts cart.send(method)
+
+# Singleton - specjalna klassa u której można stworzyć tylko jeden egzemplarz
 # Wynik:
+# loading files .... # by się nie powtarzały loading files .... loading files ....
+# Class # by się nie powtarzały Class .... Class ....
+# true
+# StoreApplication
 # car:2302.0:100
 # car:2302.0:150
 # car:2302.0:200
+
+
+

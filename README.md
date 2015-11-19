@@ -38,3 +38,4 @@
 33. Reflection и method_missing - specjalny metod collback
 34. Reflection - #kind_of?, #respond_to?, #send
 35. Ładny kod - syntax sugar
+36. Singletons and class methods 
