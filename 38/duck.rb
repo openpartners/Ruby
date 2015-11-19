@@ -8,22 +8,23 @@ class Duck
 		puts @greeting
 	end
 
-	def self.quack
-		puts @greeting
-		puts "Class quack"
+	class << self
+		attr_accessor :greeting
+		def icv
+			puts @greeting
+			puts "Class quack"
+		end
 	end
 
 end
 
 duck1 = Duck.new("quack quack")
 duck1.quack
-Duck.quack
+
+Duck.greeting = "icv"
+Duck.icv
 
 # Wynik:
 # quack quack
-# ---- niccccc
+# icv
 # Class quack
-
-
-
-
