@@ -39,13 +39,11 @@ cart.add_item RealItem.new("car", price: 2000, weight: 200)
 method = "all_cars"
 puts cart.send(method)
 
-# Wynik:
-# loading files ....
-# Class
-# :production
-# "My Store"
-# "admin"
-# "andrzejsew@gmail.com"
-# car:2302.0:100
-# car:2302.0:150
-# car:2302.0:200
+order = Order.new
+order.place
+puts order.placed_at # 2015-12-18 17:35:47 +0000 #+0000 to strefa czasowa
+puts order.placed_at.to_i # 1450460289
+puts order.placed_at.utc # 2015-12-18 17:40:04 UTC
+puts order.time_spent_on_sending_email # 9.001246758
+#http://ruby-doc.org/core-1.9.3/Time.html#method-i-strftime
+puts order.placed_at.strftime("%b %-d, %Y %H:%M:%S") # Dec 18, 2015 18:18:59

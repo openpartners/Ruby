@@ -45,4 +45,4 @@
 38. Class instance variables - zmienne klasowe 3part
 39. Threads
 40. Zamrażanie obiektów - Freezing objects - frozen?
-41. Praca z czasem - Time class
+41. Praca z czasem - Time class i Threads - wątki - strftime
