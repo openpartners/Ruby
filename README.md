@@ -46,3 +46,4 @@
 39. Threads
 40. Zamrażanie obiektów - Freezing objects - frozen?
 41. Praca z czasem - Time class i Threads - wątki - strftime
+42. rspec 
