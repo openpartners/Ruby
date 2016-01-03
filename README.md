@@ -50,3 +50,4 @@
 43. TDD - Test Driven Development
 44. Rspec callbacks before and after
 Files - czytanie plików z katalogu i zliczanie po typach + zapis do pliku wyniku
+Files2 - API Google Charts - diagram kołowy na podstawie pliku z danymi
