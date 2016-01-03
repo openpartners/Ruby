@@ -52,3 +52,4 @@
 4.5. Files - czytanie plików z katalogu i zliczanie po typach + zapis do pliku wyniku 
 4.6. Files2 - API Google Charts - diagram kołowy na podstawie pliku z danymi
 4.7. Robot indeksujący - gem mechanize - top filmów z IMDb.com
+4.7.1 Robot - filmy - export do CSV
