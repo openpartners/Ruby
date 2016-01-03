@@ -1,0 +1,13 @@
+.rb	215
+.txt	7
+.md	1
+.doc	18
+.yml	33
+.jpg	89
+.conf	10
+.erb	99
+.haml	80
+.scss	2
+.json	32
+.gif	4
+.png	45
