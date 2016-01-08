@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Procent</title>
-
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
-
-  </head>
-  <body>
-      <div class="container">
-        <h1> Ruby is super</h1>
-        <p><%= date %></p>
-        <p><%= @plus = 1+2+3+4 %></p>
-        <p> 
-        <% if @plus == 10 %>
-        <h2> @ plus = <%= @plus %> </h2>
-        <% end %>
-        </p>
-        <% [1, 2, 3, 4].each do |e| %>
-            <strong><%= e+100 %></strong>
-        <% end %>
-        </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  </body>
-</html>
+  <h1> Ruby is super</h1>
+  <p><%= date %></p>
+  <p><%= @plus = 1+2+3+4 %></p>
+  <p> 
+  <% if @plus == 10 %>
+  <h2> @ plus = <%= @plus %> </h2>
+  <% end %>
+  </p>
+  <% [1, 2, 3, 4].each do |e| %>
+      <strong><%= e+100 %></strong>
+  <% end %>

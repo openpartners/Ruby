@@ -55,3 +55,4 @@
 4.7.1 Robot - filmy - export do CSV
 4.8 Przetwarzanie obrazów - efekt vignette - ImageMagick
 4.9 Sinatra
+4.9.1 Sinatra - layout
