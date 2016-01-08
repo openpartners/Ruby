@@ -56,3 +56,4 @@
 4.8 Przetwarzanie obrazów - efekt vignette - ImageMagick
 4.9 Sinatra
 4.9.1 Sinatra - layout
+4.9.2 Sinatra - kalkulator procentu składanego

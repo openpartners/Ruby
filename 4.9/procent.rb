@@ -1,17 +1,20 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-get '/hi' do
-   # "Hello World! #{params.inspect} #{params.class}"
-   now = Time.now
-   erb :index, locals: { date: now}
+get '/' do 
+  erb :index
 end
 
-get '/hello' do 
-    erb :hello
+post '/calculate' do
+  
+  years = params["years"].to_i
+  amount = params["amount"].to_f
+  percent = params["percent"].to_f/100.0
+  
+  new_amount = amount*((1 + percent/365.0)**(years*365))
+  
+  erb :calculate, locals: { new_amount: new_amount}
 end
-
 
 # Wynik: "ruby procent.rb -p $PORT -o $IP" na c9.com
-# problem z odświeżaniem treści bez ponownego uruchomiania serwera - sinatra/reloader:
-# gem install sinatra-contrib
+

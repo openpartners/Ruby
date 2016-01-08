@@ -1,11 +1,18 @@
-  <h1> Ruby is super</h1>
-  <p><%= date %></p>
-  <p><%= @plus = 1+2+3+4 %></p>
-  <p> 
-  <% if @plus == 10 %>
-  <h2> @ plus = <%= @plus %> </h2>
-  <% end %>
-  </p>
-  <% [1, 2, 3, 4].each do |e| %>
-      <strong><%= e+100 %></strong>
-  <% end %>
+<form action="/calculate" method="post">
+  
+  <div class="form-group">
+    <label for="amount">Kwota</label>
+    <input name="amount" type="text" class="form-vontrol" placeholder="Podaj kwotę" id="amount">
+  </div>
+  <div class="form-group">
+    <label for="percent">Procent</label>
+    <input name="percent" type="text" class="form-vontrol" placeholder="Podaj procent. Dla 5% wpisz 5" id="percent">
+  </div>  
+  <div class="form-group">
+    <label for="years">Liczba lat</label>
+    <input name="years" type="text" class="form-vontrol" placeholder="Podaj liczbę lat" id="years">
+  </div>
+ 
+ 
+  <button type="submit" class="btn btn-default">Policz!</button>
+</form>
