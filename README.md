@@ -54,3 +54,4 @@
 4.7. Robot indeksujący - gem mechanize - top filmów z IMDb.com
 4.7.1 Robot - filmy - export do CSV
 4.8 Przetwarzanie obrazów - efekt vignette - ImageMagick
+4.9 Sinatra
