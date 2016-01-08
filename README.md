@@ -48,8 +48,9 @@
 41. Praca z czasem - Time class i Threads - wątki - strftime
 42. rspec 
 43. TDD - Test Driven Development
-44. Rspec callbacks before and after \n
+44. Rspec callbacks before and after
 4.5. Files - czytanie plików z katalogu i zliczanie po typach + zapis do pliku wyniku 
 4.6. Files2 - API Google Charts - diagram kołowy na podstawie pliku z danymi
 4.7. Robot indeksujący - gem mechanize - top filmów z IMDb.com
 4.7.1 Robot - filmy - export do CSV
+4.8 Przetwarzanie obrazów - efekt vignette - ImageMagick
