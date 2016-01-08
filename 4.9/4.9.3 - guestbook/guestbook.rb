@@ -1,8 +1,21 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require 'sequel'
+
+DB = Sequel.sqlite "database.db"
 
 get '/' do 
-  erb :index
+  posts = DB[:posts]
+  erb :index, locals: { posts: posts.order(Sequel.desc(:create_at)) }
+end
+
+post "/massages" do
+  posts = DB[:posts]
+  posts.insert author: params[:author],
+    content: params[:content],
+    create_at: Time.now
+    
+  redirect "/"
 end
 
 

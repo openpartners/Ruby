@@ -57,5 +57,5 @@
 4.9 Sinatra
 4.9.1 Sinatra - layout
 4.9.2 Sinatra - kalkulator procentu składanego
-4.9.3 Sinatra - Księga Gości
+4.9.3 Sinatra - Księga Gości - Sequel.sqlite
 
