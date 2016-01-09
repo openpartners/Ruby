@@ -60,3 +60,4 @@
 4.9.3 Sinatra - Księga Gości - Sequel.sqlite
 Projekt JSON API i wyszukiwarka dyskografii, część 1
 Projekt JSON API i wyszukiwarka dyskografii, część 2 - wyszukiwanie, autorizacja
+Projekt JSON API i wyszukiwarka dyskografii, część 3 - prototyp
