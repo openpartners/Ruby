@@ -63,3 +63,4 @@ Projekt JSON API i wyszukiwarka dyskografii, część 2 - wyszukiwanie, autoriza
 Projekt JSON API i wyszukiwarka dyskografii, część 3 - prototyp
 Projekt JSON API i wyszukiwarka dyskografii, część 3 - prototyp
 Projekt JSON API i wyszukiwarka dyskografii - refaktoryzacja 
+Projekt JSON API i Wyszukiwarka dyskografii - elegancka struktura projektu

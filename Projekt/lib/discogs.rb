@@ -1,0 +1,8 @@
+require 'bundler/setup'
+require 'json'
+require 'faraday'
+require 'awesome_print'
+require 'discogs/json_client'
+require 'discogs/album_formater'
+require 'discogs/discogs_client'
+require 'discogs/discogs_app'

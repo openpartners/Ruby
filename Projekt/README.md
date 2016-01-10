@@ -1,0 +1,1 @@
+./bin/discogs '2pac all eyez on me'
