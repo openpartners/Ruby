@@ -6,8 +6,12 @@ class DiscogsApp
   def run
     client = DiscogsClient.new
     release = client.search @phrase
-    url = release["resource_url"]
-    album = client.find_album(url)
-    AlbumFormatter.new(album).print_album
+    unless release.nil?
+      url = release["resource_url"]
+      album = client.find_album(url)
+      AlbumFormatter.new(album).print_album
+    else
+      puts "brak wyników"
+    end
   end
 end
