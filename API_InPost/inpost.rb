@@ -26,3 +26,10 @@ end
 # Array [0, 1]
 gps = machines.find { |g| g["location"].include?(20.44475)}
 ap gps["location"]
+
+# Array type => 0
+@tab_type = []
+machines.each do |machine|
+  @tab_type << machine["type"]
+end
+ap @tab_type.uniq
