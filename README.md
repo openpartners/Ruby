@@ -49,6 +49,8 @@
 42. rspec 
 43. TDD - Test Driven Development
 44. Rspec callbacks before and after
+45. Rspec 
+
 4.5. Files - czytanie plików z katalogu i zliczanie po typach + zapis do pliku wyniku 
 4.6. Files2 - API Google Charts - diagram kołowy na podstawie pliku z danymi
 4.7. Robot indeksujący - gem mechanize - top filmów z IMDb.com
