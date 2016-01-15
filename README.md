@@ -50,7 +50,8 @@
 43. TDD - Test Driven Development
 44. Rspec callbacks before and after
 45. Rspec -v=2.0 matchers - have, railse_errors
-46. 
+46. Rspec nested describe -l2
+47. Rspec - unit 
 
 4.5. Files - czytanie plików z katalogu i zliczanie po typach + zapis do pliku wyniku 
 4.6. Files2 - API Google Charts - diagram kołowy na podstawie pliku z danymi
