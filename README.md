@@ -49,7 +49,7 @@
 42. rspec 
 43. TDD - Test Driven Development
 44. Rspec callbacks before and after
-45. Rspec matchers - have
+45. Rspec -v=2.0 matchers - have, railse_errors
 46. 
 
 4.5. Files - czytanie plików z katalogu i zliczanie po typach + zapis do pliku wyniku 
