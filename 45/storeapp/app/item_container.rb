@@ -10,7 +10,9 @@ module ItemContainer
 	end
 
 	module InstanceMethods
-
+		
+		attr_reader :items
+		
 		# def method_missing(method_name)
 		# 	puts "taki #{method_name} metod nie istnieje"
 		# end
