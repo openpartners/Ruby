@@ -10,5 +10,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  awesome_print
-  faraday
+  awesome_print (~> 1.6, >= 1.6.1)
+  faraday (~> 0.9.2)
+
+BUNDLED WITH
+   1.11.2
